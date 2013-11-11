@@ -1,0 +1,14 @@
+# Some regexps specifying names and paths to ignore.
+ignore = Name temp.*
+ignore = Name *~
+ignore = Name .*~
+ignore = Name *.o
+ignore = Name *.tmp
+ignore = Name *.swp
+
+# Also these.
+ignore = Name {Cache*,.Trash*,.VolumeIcon.icns,.HSicon,Temporary*,.Temporary*,TheFindByContentFolder}
+ignore = Name {TheVolumeSettingsFolder,.Metadata,.filler.idsff,.Spotlight,.DS_Store,.CFUserTextEncoding}
+
+# Pretty syntax.
+# vim: ft=sh

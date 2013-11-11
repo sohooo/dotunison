@@ -4,5 +4,8 @@
 # except profiles
 !*.prf
 
+# some shared definitions
+!ignores
+
 # and myself
 !.gitignore
