@@ -1,0 +1,54 @@
+label = Sync with IO USB Stick
+
+# Roots of the synchronization
+root = /Users/sven
+root = /Volumes/IO
+
+# Paths to synchronize 
+path = .vimrc
+
+# Documents
+path = Documents/E-Books
+path = Documents/Fitness
+path = Documents/2Read
+
+# RubyTapas episodes to study at coffee break.
+# http://www.rubytapas.com
+path = Music/iTunes/iTunes Music/Podcasts/RubyTapas
+
+
+# Prevent accidents with removable media
+# http://www.cis.upenn.edu/~bcpierce/unison/download/releases/stable/unison-manual.html#mountpoints
+mountpoint = .vimrc
+
+# Some regexps specifying names and paths to ignore.
+ignore = Name temp.*
+ignore = Name *~
+ignore = Name .*~
+ignore = Name *.o
+ignore = Name *.tmp
+ignore = Name *.swp
+
+# Also these.
+ignore = Name {Cache*,.Trash*,.VolumeIcon.icns,.HSicon,Temporary*,.Temporary*,TheFindByContentFolder}
+ignore = Name {TheVolumeSettingsFolder,.Metadata,.filler.idsff,.Spotlight,.DS_Store,.CFUserTextEncoding}
+
+# We're cross-platform, so skip resource forks and permissions.
+rsrc = false
+perms = 0
+
+
+# batch mode: ask no questions at all
+batch = true
+
+# automatically accept default (nonconflicting) actions
+auto = true
+
+# ask about whole-replica (or path) deletes (default true)
+confirmbigdel = true
+
+# Log actions to the terminal
+log = true
+
+# Pretty syntax.
+# vim: ft=sh

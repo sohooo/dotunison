@@ -1,0 +1,8 @@
+# ignore everything
+*
+
+# except profiles
+!*.prf
+
+# and myself
+!.gitignore
