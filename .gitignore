@@ -7,5 +7,9 @@
 # some shared definitions
 !ignores
 
+# meta stuff
+README.md
+LICENCE
+
 # and myself
 !.gitignore
